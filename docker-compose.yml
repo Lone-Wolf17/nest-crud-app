@@ -1,8 +1,8 @@
 version: '3.9'
 services:
-  nestapp:
-    container_name: nestapp
-    image: akorede/nestapp:1.0.0
+  nest_typeorm:
+    container_name: nest_typeorm
+    image: akorede/nest_typeorm:1.0.0
     build: .
     ports:
       - '3000:3000'
